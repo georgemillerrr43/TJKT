@@ -148,21 +148,21 @@ function ProgramsPreview() {
     {
       title: 'Design & Media',
       description: 'Branding, UI/UX, and visual storytelling.',
-      image: '/images/gallery_04.jpg',
+      image: 'images/gallery_04.jpg',
       icon: <Lightbulb className="w-6 h-6" />,
       students: 15,
     },
     {
       title: 'Engineering Tech',
       description: 'Prototyping, systems, and smart hardware.',
-      image: '/images/gallery_03.jpg',
+      image: 'images/gallery_03.jpg',
       icon: <Code className="w-6 h-6" />,
       students: 20,
     },
     {
       title: 'Business & Digital',
       description: 'Marketing, operations, and analytics.',
-      image: '/images/gallery_02.jpg',
+      image: 'images/gallery_02.jpg',
       icon: <Briefcase className="w-6 h-6" />,
       students: 35,
     },
@@ -240,22 +240,22 @@ function FeaturedMembers() {
     {
       name: 'Rizky Perdana',
       role: 'IT Advanced',
-      image: '/images/joji.jpeg',
+      image: 'images/joji.jpeg',
     },
     {
       name: 'Zahra Adeliana',
       role: 'Musikal Artist',
-      image: '/images/adel.jpeg',
+      image: 'images/adel.jpeg',
     },
     {
       name: 'Afif Naufal ',
       role: 'Grafis Artist',
-      image: '/images/afif.jpeg',
+      image: 'images/afif.jpeg',
     },
     {
       name: 'Rendi Ardiansyah',
       role: 'Grafis Designer',
-      image: '/images/rendi.jpeg',
+      image: 'images/rendi.jpeg',
     },
   ];
 
@@ -316,19 +316,19 @@ function FeaturedProjects() {
     {
       title: 'EcoPack Redesign',
       description: 'Sustainable packaging concept with user research.',
-      image: '/images/project_ecopack.jpg',
+      image: 'images/project_ecopack.jpg',
       tags: ['UI/UX', 'Sustainability'],
     },
     {
       title: 'Smart Campus App',
       description: 'Mobile app for campus navigation and scheduling.',
-      image: '/images/gallery_01.jpg',
+      image: 'images/gallery_01.jpg',
       tags: ['Mobile', 'Flutter'],
     },
     {
       title: 'Brand Identity System',
       description: 'Complete visual identity for local businesses.',
-      image: '/images/gallery_06.jpg',
+      image: 'images/gallery_06.jpg',
       tags: ['Branding'],
     },
   ];
