@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { HashRouter as Router, Routes, Route } from 'react-router-dom'; // Ganti ke HashRouter untuk GitHub Pages
 import Layout from './components/layout/Layout';
 import Home from './pages/Home';
 import Programs from './pages/Programs';
