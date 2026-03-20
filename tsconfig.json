@@ -13,7 +13,6 @@
     "paths": {
       "@/*": ["./src/*"]
     },
-    /* Settingan supaya Build lancar tanpa error variabel sisa */
     "noUnusedLocals": false,
     "noUnusedParameters": false,
     "checkJs": false,
