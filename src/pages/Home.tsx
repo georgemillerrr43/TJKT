@@ -104,7 +104,7 @@ function HeroSection() {
           {/* Right Image */}
           <div className="lg:w-[48%] h-80 lg:h-auto relative">
             <img
-              src="/images/Tjkt1.png"
+              src="images/Tjkt1.png"
               alt="Students collaborating"
               className="w-full h-full object-cover img-editorial lg:rounded-r-[32px]"
             />
