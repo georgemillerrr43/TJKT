@@ -5,7 +5,8 @@ import { inspectAttr } from 'kimi-plugin-inspect-react'
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: './',
+  // Ganti './' menjadi '/TJKT/' agar sesuai dengan sub-folder di GitHub Pages
+  base: '/TJKT/', 
   plugins: [inspectAttr(), react()],
   resolve: {
     alias: {
