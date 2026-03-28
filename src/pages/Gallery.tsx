@@ -22,7 +22,7 @@ function useScrollReveal() {
 const galleryImages = [
   {
     id: 1,
-    src: 'images/gallery_01.jpg',
+    src: '/images/gallery_01.jpg',
     title: 'Kolaborasi Workshop',
     description: 'Siswa bekerja sama dalam proyek kelompok',
     date: 'Maret 2024',
@@ -31,7 +31,7 @@ const galleryImages = [
   },
   {
     id: 2,
-    src: 'images/gallery_02.jpg',
+    src: '/images/gallery_02.jpg',
     title: 'Presentasi Desain',
     description: 'Menampilkan karya kreatif di depan kelas',
     date: 'Februari 2024',
@@ -40,7 +40,7 @@ const galleryImages = [
   },
   {
     id: 3,
-    src: 'images/gallery_03.jpg',
+    src: '/images/gallery_03.jpg',
     title: 'Workshop 3D Printing',
     description: 'Belajar pembuatan prototipe dengan printer 3D',
     date: 'Januari 2024',
@@ -49,7 +49,7 @@ const galleryImages = [
   },
   {
     id: 4,
-    src: 'images/gallery_04.jpg',
+    src: '/images/gallery_04.jpg',
     title: 'Sesi Lab Komputer',
     description: 'Pelatihan software desain',
     date: 'Maret 2024',
@@ -58,7 +58,7 @@ const galleryImages = [
   },
   {
     id: 5,
-    src: 'images/gallery_05.jpg',
+    src: '/images/gallery_05.jpg',
     title: 'Upacara Kelulusan',
     description: 'Merayakan pencapaian lulusan kami',
     date: 'Desember 2023',
@@ -67,7 +67,7 @@ const galleryImages = [
   },
   {
     id: 6,
-    src: 'images/gallery_06.jpg',
+    src: '/imagesimages/gallery_06.jpg',
     title: 'Produksi Media',
     description: 'Di balik layar produksi video',
     date: 'Februari 2024',
@@ -76,7 +76,7 @@ const galleryImages = [
   },
   {
     id: 7,
-    src: 'images/gallery_07.jpg',
+    src: '/imagesimages/gallery_07.jpg',
     title: 'Team Building',
     description: 'Kegiatan membangun tim di luar ruangan',
     date: 'Januari 2024',
@@ -85,7 +85,7 @@ const galleryImages = [
   },
   {
     id: 8,
-    src: 'images/gallery_08.jpg',
+    src: '/imagesimages/gallery_08.jpg',
     title: 'Workshop Logam',
     description: 'Belajar pengelasan dan keterampilan logam',
     date: 'Maret 2024',
@@ -94,7 +94,7 @@ const galleryImages = [
   },
   {
     id: 9,
-    src: 'images/gallery_09.jpg',
+    src: '/imagesimages/gallery_09.jpg',
     title: 'Sesi Pemrograman',
     description: 'Kelas pemrograman sedang berlangsung',
     date: 'Februari 2024',
@@ -103,7 +103,7 @@ const galleryImages = [
   },
   {
     id: 10,
-    src: 'images/gallery_10.jpg',
+    src: '/imagesimages/gallery_10.jpg',
     title: 'Perayaan Proyek',
     description: 'Merayakan penyelesaian proyek yang sukses',
     date: 'Maret 2024',
@@ -112,7 +112,7 @@ const galleryImages = [
   },
   {
     id: 11,
-    src: 'images/hero_student_collab.jpg',
+    src: '/imagesimages/hero_student_collab.jpg',
     title: 'Kelompok Belajar',
     description: 'Siswa berkolaborasi dalam tugas',
     date: 'Januari 2024',
@@ -121,7 +121,7 @@ const galleryImages = [
   },
   {
     id: 12,
-    src: 'images/program_design_detail.jpg',
+    src: '/imagesimages/program_design_detail.jpg',
     title: 'Studio Desain',
     description: 'Pekerjaan kreatif di studio desain',
     date: 'Maret 2024',
@@ -138,8 +138,8 @@ export default function Gallery() {
   const [lightboxOpen, setLightboxOpen] = useState(false);
   const [currentImage, setCurrentImage] = useState(0);
 
-  const filteredImages = selectedCategory === 'Semua' 
-    ? galleryImages 
+  const filteredImages = selectedCategory === 'Semua'
+    ? galleryImages
     : galleryImages.filter(img => img.category === selectedCategory);
 
   const openLightbox = (index: number) => {
@@ -166,7 +166,7 @@ export default function Gallery() {
       {/* Hero Section */}
       <section className="pt-32 pb-20 relative overflow-hidden">
         <div className="orange-bloom -right-[20vw] -top-[20vh]" />
-        
+
         <div className="w-full px-6 lg:px-12 relative z-10">
           <div className="max-w-4xl mx-auto text-center reveal">
             <span className="tag-orange mb-6 inline-block">
@@ -191,11 +191,10 @@ export default function Gallery() {
               <button
                 key={category}
                 onClick={() => setSelectedCategory(category)}
-                className={`px-5 py-2.5 rounded-full font-medium transition-all duration-300 ${
-                  selectedCategory === category
+                className={`px-5 py-2.5 rounded-full font-medium transition-all duration-300 ${selectedCategory === category
                     ? 'bg-orange-500 text-white shadow-lg shadow-orange-500/30'
                     : 'bg-white text-gray-600 hover:bg-orange-100 hover:text-orange-600'
-                }`}
+                  }`}
               >
                 {category}
               </button>
@@ -217,10 +216,10 @@ export default function Gallery() {
                     className="w-full h-full object-cover img-editorial group-hover:scale-110 transition-transform duration-700"
                   />
                 </div>
-                
+
                 {/* Overlay */}
                 <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
-                
+
                 {/* Content */}
                 <div className="absolute bottom-0 left-0 right-0 p-4 translate-y-full group-hover:translate-y-0 transition-transform duration-500">
                   <h3 className="text-white font-semibold mb-1">{image.title}</h3>
@@ -264,7 +263,7 @@ export default function Gallery() {
               alt={filteredImages[currentImage].title}
               className="max-w-full max-h-[70vh] object-contain rounded-lg"
             />
-            
+
             {/* Info */}
             <div className="mt-6 text-center text-white">
               <h3 className="font-poppins font-semibold text-xl mb-2">
