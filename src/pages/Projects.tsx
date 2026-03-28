@@ -25,7 +25,7 @@ const projects = [
     id: 'cisco-project',
     title: 'Perancangan Jaringan Cisco',
     description: 'Implementasi routing statis dan dinamis (OSPF) pada infrastruktur jaringan skala menengah.',
-    image: '/images/project_cisco.jpg',
+    image: 'images/project_cisco.jpg',
     tags: ['Networking', 'Cisco'],
     year: '2024',
     icon: <Network className="w-6 h-6 transition-colors duration-300" />
@@ -34,7 +34,7 @@ const projects = [
     id: 'mikrotik-project',
     title: 'Hotspot Gateway MikroTik',
     description: 'Membangun sistem login hotspot dan manajemen bandwidth menggunakan Winbox.',
-    image: '/images/project_mikrotik.jpg',
+    image: 'images/project_mikrotik.jpg',
     tags: ['MikroTik', 'Security'],
     year: '2024',
     icon: <Shield className="w-6 h-6 transition-colors duration-300" />
@@ -43,7 +43,7 @@ const projects = [
     id: 'web-project',
     title: 'Website Portfolio TJKT',
     description: 'Membangun landing page interaktif menggunakan React dan Tailwind CSS.',
-    image: '/images/project_web.jpg',
+    image: 'images/project_web.jpg',
     tags: ['Web Dev', 'React'],
     year: '2024',
     icon: <Globe className="w-6 h-6 transition-colors duration-300" />
@@ -52,7 +52,7 @@ const projects = [
     id: 'iot-project',
     title: 'Smart Home System',
     description: 'Monitoring suhu dan kontrol lampu otomatis berbasis ESP32 dan protokol MQTT.',
-    image: '/images/project_iot.jpg',
+    image: 'images/project_iot.jpg',
     tags: ['IoT', 'Arduino'],
     year: '2023',
     icon: <Cpu className="w-6 h-6 transition-colors duration-300" />
@@ -61,7 +61,7 @@ const projects = [
     id: 'server-project',
     title: 'Linux Server Management',
     description: 'Konfigurasi Web Server, Database, dan Mail Server pada distribusi Ubuntu Server.',
-    image: '/images/project_server.jpg',
+    image: 'images/project_server.jpg',
     tags: ['Linux', 'Server'],
     year: '2023',
     icon: <Laptop className="w-6 h-6 transition-colors duration-300" />
@@ -70,7 +70,7 @@ const projects = [
     id: 'fiber-project',
     title: 'Fiber Optic Splicing',
     description: 'Praktik penyambungan kabel fiber optik dan pengujian menggunakan OTDR.',
-    image: '/images/project_fo.jpg',
+    image: 'images/project_fo.jpg',
     tags: ['TJKT', 'Hardware'],
     year: '2024',
     icon: <Layers className="w-6 h-6 transition-colors duration-300" />
