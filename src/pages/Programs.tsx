@@ -112,7 +112,7 @@ export default function Programs() {
       {/* Hero Section */}
       <section className="pt-32 pb-20 relative overflow-hidden">
         <div className="orange-bloom -right-[20vw] -top-[20vh]" />
-        
+
         <div className="w-full px-6 lg:px-12 relative z-10">
           <div className="max-w-4xl mx-auto text-center reveal">
             <span className="tag-orange mb-6 inline-block">Program Kami</span>
@@ -120,7 +120,7 @@ export default function Programs() {
               Pilih Jalur <span className="gradient-text">Karirmu</span>
             </h1>
             <p className="text-gray-600 text-lg lg:text-xl max-w-2xl mx-auto">
-              Tiga program komprehensif yang dirancang untuk mempersiapkanmu menghadapi masa depan. 
+              Tiga program komprehensif yang dirancang untuk mempersiapkanmu menghadapi masa depan.
               Setiap jalur menawarkan pembelajaran praktis dan pengalaman dunia nyata.
             </p>
           </div>
@@ -132,7 +132,7 @@ export default function Programs() {
         <div className="w-full px-6 lg:px-12">
           <div className="space-y-20">
             {programs.map((program, index) => (
-              <div 
+              <div
                 key={program.id}
                 className={`glass-card overflow-hidden reveal stagger-${(index % 3) + 1}`}
               >
@@ -204,7 +204,7 @@ export default function Programs() {
                       </h3>
                       <div className="flex flex-wrap gap-2">
                         {program.tools.map((tool, i) => (
-                          <span 
+                          <span
                             key={i}
                             className="px-3 py-1.5 bg-orange-100 text-orange-600 text-sm rounded-lg font-medium"
                           >
@@ -229,8 +229,8 @@ export default function Programs() {
                       </div>
                     </div>
 
-                   {/* CTA */}
-                    <Link 
+                    {/* CTA */}
+                    <Link
                       to={`/programs/${program.id}`}
                       className="glass-button group inline-flex items-center"
                     >
