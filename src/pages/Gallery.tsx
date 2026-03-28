@@ -22,7 +22,7 @@ function useScrollReveal() {
 const galleryImages = [
   {
     id: 1,
-    src: '/images/gallery_01.jpg',
+    src: 'images/gallery_01.jpg',
     title: 'Kolaborasi Workshop',
     description: 'Siswa bekerja sama dalam proyek kelompok',
     date: 'Maret 2024',
@@ -31,7 +31,7 @@ const galleryImages = [
   },
   {
     id: 2,
-    src: '/images/gallery_02.jpg',
+    src: 'images/gallery_02.jpg',
     title: 'Presentasi Desain',
     description: 'Menampilkan karya kreatif di depan kelas',
     date: 'Februari 2024',
@@ -40,7 +40,7 @@ const galleryImages = [
   },
   {
     id: 3,
-    src: '/images/gallery_03.jpg',
+    src: 'images/gallery_03.jpg',
     title: 'Workshop 3D Printing',
     description: 'Belajar pembuatan prototipe dengan printer 3D',
     date: 'Januari 2024',
@@ -49,7 +49,7 @@ const galleryImages = [
   },
   {
     id: 4,
-    src: '/images/gallery_04.jpg',
+    src: 'images/gallery_04.jpg',
     title: 'Sesi Lab Komputer',
     description: 'Pelatihan software desain',
     date: 'Maret 2024',
@@ -58,7 +58,7 @@ const galleryImages = [
   },
   {
     id: 5,
-    src: '/images/gallery_05.jpg',
+    src: 'images/gallery_05.jpg',
     title: 'Upacara Kelulusan',
     description: 'Merayakan pencapaian lulusan kami',
     date: 'Desember 2023',
@@ -67,7 +67,7 @@ const galleryImages = [
   },
   {
     id: 6,
-    src: '/imagesimages/gallery_06.jpg',
+    src: 'images/gallery_06.jpg',
     title: 'Produksi Media',
     description: 'Di balik layar produksi video',
     date: 'Februari 2024',
@@ -76,7 +76,7 @@ const galleryImages = [
   },
   {
     id: 7,
-    src: '/imagesimages/gallery_07.jpg',
+    src: 'images/gallery_07.jpg',
     title: 'Team Building',
     description: 'Kegiatan membangun tim di luar ruangan',
     date: 'Januari 2024',
@@ -85,7 +85,7 @@ const galleryImages = [
   },
   {
     id: 8,
-    src: '/imagesimages/gallery_08.jpg',
+    src: 'images/gallery_08.jpg',
     title: 'Workshop Logam',
     description: 'Belajar pengelasan dan keterampilan logam',
     date: 'Maret 2024',
@@ -94,7 +94,7 @@ const galleryImages = [
   },
   {
     id: 9,
-    src: '/imagesimages/gallery_09.jpg',
+    src: 'images/gallery_09.jpg',
     title: 'Sesi Pemrograman',
     description: 'Kelas pemrograman sedang berlangsung',
     date: 'Februari 2024',
@@ -103,7 +103,7 @@ const galleryImages = [
   },
   {
     id: 10,
-    src: '/imagesimages/gallery_10.jpg',
+    src: 'images/gallery_10.jpg',
     title: 'Perayaan Proyek',
     description: 'Merayakan penyelesaian proyek yang sukses',
     date: 'Maret 2024',
@@ -112,7 +112,7 @@ const galleryImages = [
   },
   {
     id: 11,
-    src: '/imagesimages/hero_student_collab.jpg',
+    src: 'images/hero_student_collab.jpg',
     title: 'Kelompok Belajar',
     description: 'Siswa berkolaborasi dalam tugas',
     date: 'Januari 2024',
@@ -121,7 +121,7 @@ const galleryImages = [
   },
   {
     id: 12,
-    src: '/imagesimages/program_design_detail.jpg',
+    src: 'images/program_design_detail.jpg',
     title: 'Studio Desain',
     description: 'Pekerjaan kreatif di studio desain',
     date: 'Maret 2024',
